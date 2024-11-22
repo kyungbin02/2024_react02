@@ -29,6 +29,9 @@ import RefTest03 from './components/step11/RefTest03';
 import Timer from './components/step11/Timer';
 import RefTest05 from './components/step11/RefTest05';
 import UseidTest from './components/step12/UseidTest';
+import ContextTest from './components/step14/ContextTest';
+//import ContextTest from './components/step13/ContextTest';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -60,8 +63,10 @@ root.render(
   // <RefTest03 />
   // <RefTest05 />
   // <UseIdTest2 />
-  <UseidTest />
+  // <UseidTest />
 
+  // <ContextTest />
+  <ContextTest />
 
   // <Timer />
 
