@@ -30,6 +30,9 @@ import Timer from './components/step11/Timer';
 import RefTest05 from './components/step11/RefTest05';
 import UseidTest from './components/step12/UseidTest';
 import ContextTest from './components/step14/ContextTest';
+import ReducerTest01 from './components/step15/ReducerTest01';
+import Login from './components/Login';
+import ReducerTest02 from './components/step15/ReducerTest02';
 //import ContextTest from './components/step13/ContextTest';
 
 
@@ -42,7 +45,7 @@ root.render(
   //  <InputExam /> 
   //  <CountEx /> 
   //  <CheckEx /> 
-  //  <TodoList />
+   <TodoList />
   //  <ProfileEx /> 
   //  <TempEx /> 
   //   <FormEx /> 
@@ -66,9 +69,14 @@ root.render(
   // <UseidTest />
 
   // <ContextTest />
-  <ContextTest />
+
+  // <ContextTest />
+  // <ReducerTest01 />
+
+  //<ReducerTest02 />
+
 
   // <Timer />
-
+  // <Login />
 );
 reportWebVitals();
